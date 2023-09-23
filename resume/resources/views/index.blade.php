@@ -194,9 +194,8 @@
                         <h4>SOSYAL MEDYA HESAPLARIM</h4>
                         <ul>
                             @foreach ($social as $s)
-                                <li class="fb w3ls w3layouts agileits"><a href="{{ $s->social_url }}"><span
-                                            class="icons w3layouts agileits"></span><span
-                                            class="text w3layouts agileits">{{ $s->social_name }}</span></a></li>
+                                <li class="fb w3ls w3layouts agileits"><a href="{{ $s->social_url }}">
+                                        <span class="text w3layouts agileits">{{ $s->social_name }}</span></a></li>
                             @endforeach
 
 

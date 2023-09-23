@@ -29,7 +29,10 @@
                         <a class="nav-link" href="{{ route('education.index') }}">Eğitimler</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="{{ route('skills.index') }}">YETENEKLER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('contact.index') }}">İLETİŞİM</a>
                     </li>
                 </ul>
             </div>
